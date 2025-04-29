@@ -29,7 +29,7 @@ const Header = () => {
             width: "90%",
             maxWidth: "500px", // Limita el ancho en pantallas grandes
           }}>
-          <h1 style={{ fontSize: "2rem" }}>David Nelson</h1>
+          <h1 style={{ fontSize: "2rem" }}>David</h1>
           <p style={{ fontSize: "1.2rem" }}>Desarrollador Web</p>
         </div>
       </header>
