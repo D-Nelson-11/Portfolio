@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 const Header = () => {
   return (
     <>
-   <Navbar expand="lg" variant="dark" fixed="top" style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}>
+      <Navbar expand="lg" variant="dark" fixed="top" style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}>
         <Container>
           <Navbar.Brand href="#">DN</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -26,10 +26,11 @@ const Header = () => {
             textAlign: "center",
             backgroundColor: "rgba(255, 255, 255, 0.3)",
             borderRadius: "10px",
-            width: "30%",
+            width: "90%",
+            maxWidth: "500px", // Limita el ancho en pantallas grandes
           }}>
-          <h1>David Nelson</h1>
-          <p style={{ fontSize: "20px" }}>Desarrollador Web</p>
+          <h1 style={{ fontSize: "2rem" }}>David Nelson</h1>
+          <p style={{ fontSize: "1.2rem" }}>Desarrollador Web</p>
         </div>
       </header>
     </>
